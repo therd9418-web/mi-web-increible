@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+                url("https://cdn.discordapp.com/attachments/1466564361282781299/1472415768707596351/ChatGPT_Image_Feb_14_2026_09_05_13_PM.png?ex=69927d8b&is=69912c0b&hm=0d9e24c983049233071fec1fda6572ca5bda881f09a65628a064d8b9ec129cb4&");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.card {
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    color: rgb(247, 0, 0);
+    backdrop-filter: blur(10px);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
